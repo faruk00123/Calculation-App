@@ -33,7 +33,7 @@ const Tempe = () => {
           })
     }
   return (
-    <div className='bg-white/2 p-4 rounded text-white/70 hover:shadow-2xl hover:shadow-emerald-300 transition-all delay-100 border-b border-b-red-500 border-r border-r-amber-500 border-t border-t-emerald-500 border-l border-l-fuchsia-500'>
+    <div className='bg-white/6 p-4 rounded text-white/70 hover:shadow-2xl hover:shadow-emerald-300 transition-all delay-100 border-b border-b-red-500 border-r border-r-amber-500 border-t border-t-emerald-500 border-l border-l-fuchsia-500'>
         <h1 className='text-cyan-600 text-center hover:text-blue-600 font-semibold text-2xl pb-5'>Calculation App</h1>
         <Celsad celsius={temperature.celsius} handleCelsiusChange={handleCelsiusChange}/>
         <Fahadf fahrenheit={temperature.fahrenheit} handleFahrenheitChange={handleFahrenheitChange}/>
